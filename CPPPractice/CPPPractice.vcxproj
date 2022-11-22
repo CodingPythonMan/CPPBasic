@@ -134,6 +134,7 @@
     <ClCompile Include="cout2.cpp" />
     <ClCompile Include="namespace3.cpp" />
     <ClCompile Include="namespace4.cpp" />
+    <ClCompile Include="namespace5.cpp" />
     <ClCompile Include="Namespace_1.cpp" />
     <ClCompile Include="Namespace_2.cpp" />
     <ClCompile Include="std1.cpp" />
