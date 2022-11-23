@@ -134,11 +134,14 @@
     <ClCompile Include="auto3.cpp" />
     <ClCompile Include="cout1.cpp" />
     <ClCompile Include="cout2.cpp" />
+    <ClCompile Include="default_param1.cpp" />
     <ClCompile Include="namespace3.cpp" />
     <ClCompile Include="namespace4.cpp" />
     <ClCompile Include="namespace5.cpp" />
     <ClCompile Include="Namespace_1.cpp" />
     <ClCompile Include="Namespace_2.cpp" />
+    <ClCompile Include="overloading1.cpp" />
+    <ClCompile Include="overloading3.cpp" />
     <ClCompile Include="std1.cpp" />
     <ClCompile Include="std2.cpp" />
     <ClCompile Include="std3.cpp" />
@@ -146,6 +149,10 @@
     <ClCompile Include="string1.cpp" />
     <ClCompile Include="string2.cpp" />
     <ClCompile Include="structure_binding.cpp" />
+    <ClCompile Include="template1.cpp" />
+    <ClCompile Include="template2.cpp" />
+    <ClCompile Include="template3.cpp" />
+    <ClCompile Include="type_etc.cpp" />
     <ClCompile Include="uniform_init1.cpp" />
     <ClCompile Include="uniform_init2.cpp" />
   </ItemGroup>
