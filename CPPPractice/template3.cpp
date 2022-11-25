@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 template<class T>
 T square(T a)
@@ -13,4 +13,4 @@ int main()
 
 	printf("%p\n", &square<int>);
 	printf("%p\n", &square<double>);
-}
+}*/
