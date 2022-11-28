@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4626d7d8-56f8-469c-bbd7-4f1625df7062}</ProjectGuid>
-    <RootNamespace>Section02</RootNamespace>
+    <ProjectGuid>{ac520d4b-fbbe-43b0-b60c-5082ed86fb82}</ProjectGuid>
+    <RootNamespace>Section03</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -119,7 +118,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,53 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConstMemberFunction\const_member_function1.cpp" />
-    <ClCompile Include="ConstMemberFunction\const_member_function3.cpp" />
-    <ClCompile Include="ConstMemberFunction\const_vs_nonconst.cpp" />
-    <ClCompile Include="ConstMemberFunction\mutable.cpp" />
-    <ClCompile Include="ConstMemberFunction\Rect.cpp" />
-    <ClCompile Include="CopyConstructor\call_copy1.cpp" />
-    <ClCompile Include="CopyConstructor\copy_ctor1.cpp" />
-    <ClCompile Include="CopyConstructor\deep_copy.cpp" />
-    <ClCompile Include="CopyConstructor\default_copy_ctor1.cpp" />
-    <ClCompile Include="CopyConstructor\default_copy_ctor2.cpp" />
-    <ClCompile Include="CopyConstructor\delete_copy.cpp" />
-    <ClCompile Include="CopyConstructor\ref_count.cpp" />
-    <ClCompile Include="CopyConstructor\using_stl.cpp" />
-    <ClCompile Include="CPPBasic_this\ref_return1.cpp" />
-    <ClCompile Include="CPPBasic_this\ref_return2.cpp" />
-    <ClCompile Include="CPPBasic_this\ref_return4.cpp" />
-    <ClCompile Include="CPPBasic_this\this1.cpp" />
-    <ClCompile Include="CPPBasic_this\this2.cpp" />
-    <ClCompile Include="memberInitializerSet\default_member_init1.cpp" />
-    <ClCompile Include="memberInitializerSet\explicit1.cpp" />
-    <ClCompile Include="memberInitializerSet\explicit2.cpp" />
-    <ClCompile Include="memberInitializerSet\explicit3.cpp" />
-    <ClCompile Include="memberInitializerSet\explicit4.cpp" />
-    <ClCompile Include="memberInitializerSet\explicit5.cpp" />
-    <ClCompile Include="memberInitializerSet\member_init_list1.cpp" />
-    <ClCompile Include="memberInitializerSet\member_init_list2.cpp" />
-    <ClCompile Include="memberInitializerSet\member_init_list4.cpp" />
-    <ClCompile Include="constructordestructor\Person.cpp" />
-    <ClCompile Include="constructordestructor\using_person.cpp" />
-    <ClCompile Include="constructordestructor\using_stl.cpp" />
-    <ClCompile Include="constructordestructor\vector1.cpp" />
-    <ClCompile Include="constructordestructor\vector2.cpp" />
-    <ClCompile Include="constructordestructor\vector4.cpp" />
-    <ClCompile Include="memberInitializerSet\Point.cpp" />
-    <ClCompile Include="StaticMember\static_member1.cpp" />
-    <ClCompile Include="StaticMember\static_member2.cpp" />
-    <ClCompile Include="StaticMember\static_member_data1.cpp" />
-    <ClCompile Include="StaticMember\static_member_data2.cpp" />
-    <ClCompile Include="StaticMember\static_member_data3.cpp" />
-    <ClCompile Include="StaticMember\static_member_data4.cpp" />
-    <ClCompile Include="StaticMember\static_member_data5.cpp" />
-    <ClCompile Include="StaticMember\static_member_function1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ConstMemberFunction\Rect.h" />
-    <ClInclude Include="constructordestructor\Person.h" />
-    <ClInclude Include="memberInitializerSet\Point.h" />
+    <ClCompile Include="Inheritance\inherit_ctor1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
