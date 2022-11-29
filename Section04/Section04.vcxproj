@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac520d4b-fbbe-43b0-b60c-5082ed86fb82}</ProjectGuid>
-    <RootNamespace>Section03</RootNamespace>
+    <ProjectGuid>{fa1a99fe-4915-4500-bcc8-2585caab8816}</ProjectGuid>
+    <RootNamespace>Section04</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,33 +127,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbstractInterface\abstract1.cpp" />
-    <ClCompile Include="AbstractInterface\abstract2.cpp" />
-    <ClCompile Include="AbstractInterface\interface1.cpp" />
-    <ClCompile Include="AbstractInterface\interface2.cpp" />
-    <ClCompile Include="Inheritance\inherit_ctor1.cpp" />
-    <ClCompile Include="MultiInherit\multi_inheritance1.cpp" />
-    <ClCompile Include="MultiInherit\multi_inheritance2.cpp" />
-    <ClCompile Include="RTTI\inherit_rtti1.cpp" />
-    <ClCompile Include="RTTI\inherit_rtti2.cpp" />
-    <ClCompile Include="RTTI\inherit_rtti3.cpp" />
-    <ClCompile Include="RTTI\rtti1.cpp" />
-    <ClCompile Include="RTTI\rtti2.cpp" />
-    <ClCompile Include="RTTI\rtti3.cpp" />
-    <ClCompile Include="VirtualFunction01\shape_example.cpp" />
-    <ClCompile Include="VirtualFunction01\shape_example2.cpp" />
-    <ClCompile Include="VirtualFunction01\shape_example3.cpp" />
-    <ClCompile Include="VirtualFunction01\upcasting1.cpp" />
-    <ClCompile Include="VirtualFunction01\upcasting2.cpp" />
-    <ClCompile Include="VirtualFunction01\upcasting3.cpp" />
-    <ClCompile Include="VirtualFunction01\virtual1.cpp" />
-    <ClCompile Include="VirtualFunction01\virtual2.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_destructor1.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_destructor2.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_misc1.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_misc2.cpp" />
-    <ClCompile Include="VirtualFunction02\vtable1.cpp" />
-    <ClCompile Include="VirtualFunction02\vtable2.cpp" />
+    <ClCompile Include="CoutOstream\cout1.cpp" />
+    <ClCompile Include="CoutOstream\cout2.cpp" />
+    <ClCompile Include="CoutOstream\cout3.cpp" />
+    <ClCompile Include="CoutOstream\cout_usertype.cpp" />
+    <ClCompile Include="CoutOstream\cout_usertype2.cpp" />
+    <ClCompile Include="CoutOstream\endl1.cpp" />
+    <ClCompile Include="CoutOstream\endl2.cpp" />
+    <ClCompile Include="CoutOstream\endl3.cpp" />
+    <ClCompile Include="CoutOstream\endl4.cpp" />
+    <ClCompile Include="MakeString\string0.cpp" />
+    <ClCompile Include="MakeString\string1.cpp" />
+    <ClCompile Include="MakeString\string2.cpp" />
+    <ClCompile Include="MakeString\string3.cpp" />
+    <ClCompile Include="MakeString\string4.cpp" />
+    <ClCompile Include="OperatorOverrideUse\assignment1.cpp" />
+    <ClCompile Include="OperatorOverrideUse\assignment2.cpp" />
+    <ClCompile Include="OperatorOverrideUse\functor1.cpp" />
+    <ClCompile Include="OperatorOverrideUse\functor2.cpp" />
+    <ClCompile Include="OperatorOverrideUse\functor3.cpp" />
+    <ClCompile Include="OperatorOverrideUse\increment1.cpp" />
+    <ClCompile Include="OperatorOverrideUse\increment3.cpp" />
+    <ClCompile Include="OperatorOverrideUse\smart_ptr1.cpp" />
+    <ClCompile Include="OperatorOverrideUse\smart_ptr2.cpp" />
+    <ClCompile Include="OperatorOverride\operator1.cpp" />
+    <ClCompile Include="OperatorOverride\operator2.cpp" />
+    <ClCompile Include="OperatorOverride\operator3.cpp" />
+    <ClCompile Include="OperatorOverride\operator4.cpp" />
+    <ClCompile Include="OperatorOverride\operator5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OperatorOverrideUse\car.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

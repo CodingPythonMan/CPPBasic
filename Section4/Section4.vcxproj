@@ -17,12 +17,13 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac520d4b-fbbe-43b0-b60c-5082ed86fb82}</ProjectGuid>
-    <RootNamespace>Section03</RootNamespace>
+    <ProjectGuid>{643a992c-fed6-4139-a8ad-04b0a0fa8c52}</ProjectGuid>
+    <RootNamespace>Section4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -52,24 +53,27 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
+
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared">
+  <ImportGroup Label="Shared" >
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+
   <PropertyGroup Label="UserMacros" />
+
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -126,35 +130,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="AbstractInterface\abstract1.cpp" />
-    <ClCompile Include="AbstractInterface\abstract2.cpp" />
-    <ClCompile Include="AbstractInterface\interface1.cpp" />
-    <ClCompile Include="AbstractInterface\interface2.cpp" />
-    <ClCompile Include="Inheritance\inherit_ctor1.cpp" />
-    <ClCompile Include="MultiInherit\multi_inheritance1.cpp" />
-    <ClCompile Include="MultiInherit\multi_inheritance2.cpp" />
-    <ClCompile Include="RTTI\inherit_rtti1.cpp" />
-    <ClCompile Include="RTTI\inherit_rtti2.cpp" />
-    <ClCompile Include="RTTI\inherit_rtti3.cpp" />
-    <ClCompile Include="RTTI\rtti1.cpp" />
-    <ClCompile Include="RTTI\rtti2.cpp" />
-    <ClCompile Include="RTTI\rtti3.cpp" />
-    <ClCompile Include="VirtualFunction01\shape_example.cpp" />
-    <ClCompile Include="VirtualFunction01\shape_example2.cpp" />
-    <ClCompile Include="VirtualFunction01\shape_example3.cpp" />
-    <ClCompile Include="VirtualFunction01\upcasting1.cpp" />
-    <ClCompile Include="VirtualFunction01\upcasting2.cpp" />
-    <ClCompile Include="VirtualFunction01\upcasting3.cpp" />
-    <ClCompile Include="VirtualFunction01\virtual1.cpp" />
-    <ClCompile Include="VirtualFunction01\virtual2.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_destructor1.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_destructor2.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_misc1.cpp" />
-    <ClCompile Include="VirtualFunction02\virtual_misc2.cpp" />
-    <ClCompile Include="VirtualFunction02\vtable1.cpp" />
-    <ClCompile Include="VirtualFunction02\vtable2.cpp" />
-  </ItemGroup>
+
+  <ItemGroup></ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
