@@ -128,18 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Section01\CallingConvention\main.c" />
     <ClCompile Include="Section01\Inline\inline_asm1.c" />
     <ClCompile Include="Section01\Inline\inline_asm2.c" />
     <ClCompile Include="Section01\Inline\main.c" />
+    <ClCompile Include="Section01\MASM\call.c" />
+    <ClCompile Include="Section01\MASM\main.c" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Section01\Inline\asm1.asm">
-      <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml asm1.asm /c</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">asm1.obj</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml asm1.asm /c</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">asm1.obj</Outputs>
-    </MASM>
+    <MASM Include="Section01\CallingConvention\call_argument1.asm" />
+    <MASM Include="Section01\MASM\asm1.asm" />
+    <MASM Include="Section01\MASM\asm2.asm" />
+    <MASM Include="Section01\MASM\data1.asm" />
+    <MASM Include="Section01\MASM\data2.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
