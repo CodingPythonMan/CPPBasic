@@ -128,15 +128,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Section01\CallingConvention\main.c" />
+    <ClCompile Include="Section01\CallingConvention\calling_convention1.c" />
+    <ClCompile Include="Section01\CallingConvention\calling_convention2.c" />
+    <ClCompile Include="Section01\CallingConvention\calling_convention3.c" />
+    <ClCompile Include="Section01\CallingConvention\call_main.c" />
     <ClCompile Include="Section01\Inline\inline_asm1.c" />
     <ClCompile Include="Section01\Inline\inline_asm2.c" />
-    <ClCompile Include="Section01\Inline\main.c" />
+    <ClCompile Include="Section01\Inline\inline_main.c" />
     <ClCompile Include="Section01\MASM\call.c" />
-    <ClCompile Include="Section01\MASM\main.c" />
+    <ClCompile Include="Section01\MASM\masm_main.c" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="Section01\CallingConvention\call_argument1.asm" />
+    <MASM Include="Section01\CallingConvention\call_argument2.asm" />
+    <MASM Include="Section01\CallingConvention\call_argument3.asm" />
+    <MASM Include="Section01\CallingConvention\call_c.asm" />
     <MASM Include="Section01\MASM\asm1.asm" />
     <MASM Include="Section01\MASM\asm2.asm" />
     <MASM Include="Section01\MASM\data1.asm" />
