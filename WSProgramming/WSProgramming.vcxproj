@@ -137,6 +137,8 @@
     <ClCompile Include="Section01\Inline\inline_main.c" />
     <ClCompile Include="Section01\MASM\call.c" />
     <ClCompile Include="Section01\MASM\masm_main.c" />
+    <ClCompile Include="Section01\StackFrame\sample.c" />
+    <ClCompile Include="Section01\StackFrame\stack_main.c" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="Section01\CallingConvention\call_argument1.asm" />
@@ -147,6 +149,10 @@
     <MASM Include="Section01\MASM\asm2.asm" />
     <MASM Include="Section01\MASM\data1.asm" />
     <MASM Include="Section01\MASM\data2.asm" />
+    <MASM Include="Section01\StackFrame\sample_asm.asm" />
+    <MASM Include="Section01\StackFrame\stackframe.asm" />
+    <MASM Include="Section01\StackFrame\stackframe2.asm" />
+    <MASM Include="Section01\StackFrame\stackframe3.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
