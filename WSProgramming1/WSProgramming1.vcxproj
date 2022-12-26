@@ -143,6 +143,15 @@
     <ClCompile Include="Section01\StackFrame\sample.c" />
     <ClCompile Include="Section01\StackFrame\stack_main.c" />
     <ClCompile Include="Section02\WindowsConcept\api1.cpp" />
+    <ClCompile Include="Section02\WindowsConcept\api2.cpp" />
+    <ClCompile Include="Section02\WindowsConcept\api3.cpp" />
+    <ClCompile Include="Section02\WindowsConcept\api4.cpp" />
+    <ClCompile Include="Section02\WindowsConcept\error.cpp" />
+    <ClCompile Include="Section02\WindowsConcept\unicode1.c" />
+    <ClCompile Include="Section02\WindowsConcept\unicode2.c" />
+    <ClCompile Include="Section02\WindowsConcept\unicode3.c" />
+    <ClCompile Include="Section02\WindowsConcept\unicode4.c" />
+    <ClCompile Include="Section02\WindowsConcept\unicode5.c" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="Section01\CallingConvention\call_argument1.asm" />
