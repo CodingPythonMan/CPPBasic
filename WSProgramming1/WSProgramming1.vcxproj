@@ -80,7 +80,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -94,7 +94,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -142,6 +142,13 @@
     <ClCompile Include="Section01\MASM\masm_main.c" />
     <ClCompile Include="Section01\StackFrame\sample.c" />
     <ClCompile Include="Section01\StackFrame\stack_main.c" />
+    <ClCompile Include="Section02\GUIProgramming\api_basic.cpp" />
+    <ClCompile Include="Section02\GUIProgramming\entry.cpp" />
+    <ClCompile Include="Section02\GUIProgramming\messsage1.cpp" />
+    <ClCompile Include="Section02\GUIProgramming\messsage2.cpp" />
+    <ClCompile Include="Section02\GUIProgramming\messsage3.cpp" />
+    <ClCompile Include="Section02\GUIProgramming\window.cpp" />
+    <ClCompile Include="Section02\GUIProgramming\window2.cpp" />
     <ClCompile Include="Section02\WindowsConcept\api1.cpp" />
     <ClCompile Include="Section02\WindowsConcept\api2.cpp" />
     <ClCompile Include="Section02\WindowsConcept\api3.cpp" />
