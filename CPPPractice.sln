@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section05", "Section05\Sect
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section06", "Section06\Section06.vcxproj", "{DF0B1F1F-AD64-4194-B001-3A776DE533E2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WSProgramming", "WSProgramming\WSProgramming.vcxproj", "{79B85FC0-09BA-4C59-8DA9-73526594504A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WSProgramming1", "WSProgramming1\WSProgramming1.vcxproj", "{79B85FC0-09BA-4C59-8DA9-73526594504A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,1 @@
+extern "C" int square(int a);

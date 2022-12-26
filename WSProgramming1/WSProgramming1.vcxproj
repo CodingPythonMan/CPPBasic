@@ -24,6 +24,7 @@
     <ProjectGuid>{79b85fc0-09ba-4c59-8da9-73526594504a}</ProjectGuid>
     <RootNamespace>WSProgramming</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>WSProgramming1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -132,6 +133,8 @@
     <ClCompile Include="Section01\CallingConvention\calling_convention2.c" />
     <ClCompile Include="Section01\CallingConvention\calling_convention3.c" />
     <ClCompile Include="Section01\CallingConvention\call_main.c" />
+    <ClCompile Include="Section01\CPPMASM\main.cpp" />
+    <ClCompile Include="Section01\CPPMASM\square.c" />
     <ClCompile Include="Section01\Inline\inline_asm1.c" />
     <ClCompile Include="Section01\Inline\inline_asm2.c" />
     <ClCompile Include="Section01\Inline\inline_main.c" />
@@ -139,6 +142,7 @@
     <ClCompile Include="Section01\MASM\masm_main.c" />
     <ClCompile Include="Section01\StackFrame\sample.c" />
     <ClCompile Include="Section01\StackFrame\stack_main.c" />
+    <ClCompile Include="Section02\WindowsConcept\api1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="Section01\CallingConvention\call_argument1.asm" />
@@ -153,6 +157,9 @@
     <MASM Include="Section01\StackFrame\stackframe.asm" />
     <MASM Include="Section01\StackFrame\stackframe2.asm" />
     <MASM Include="Section01\StackFrame\stackframe3.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Section01\CPPMASM\square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
