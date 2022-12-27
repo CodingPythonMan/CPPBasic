@@ -80,7 +80,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -94,7 +94,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -149,6 +149,14 @@
     <ClCompile Include="Section02\GUIProgramming\messsage3.cpp" />
     <ClCompile Include="Section02\GUIProgramming\window.cpp" />
     <ClCompile Include="Section02\GUIProgramming\window2.cpp" />
+    <ClCompile Include="Section02\Handle\findwindow.cpp" />
+    <ClCompile Include="Section02\Handle\findwindow2.cpp" />
+    <ClCompile Include="Section02\Handle\findwindow3.cpp" />
+    <ClCompile Include="Section02\Handle\handle1.cpp" />
+    <ClCompile Include="Section02\Handle\handle2.cpp" />
+    <ClCompile Include="Section02\Handle\message1.cpp" />
+    <ClCompile Include="Section02\Handle\sendmessage1.cpp" />
+    <ClCompile Include="Section02\Handle\window_object.cpp" />
     <ClCompile Include="Section02\WindowsConcept\api1.cpp" />
     <ClCompile Include="Section02\WindowsConcept\api2.cpp" />
     <ClCompile Include="Section02\WindowsConcept\api3.cpp" />
