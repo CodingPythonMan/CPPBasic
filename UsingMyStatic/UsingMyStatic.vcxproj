@@ -18,19 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="StaticLibrary\add.c" />
-    <ClCompile Include="StaticLibrary\main.c" />
-    <ClCompile Include="StaticLibrary\sub.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="StaticLibrary\mymath.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0a53fef0-c762-406a-849a-8ad7318874a8}</ProjectGuid>
-    <RootNamespace>WSProgramming2</RootNamespace>
+    <ProjectGuid>{9f3f434c-c935-4892-8c04-5d35f50fb993}</ProjectGuid>
+    <RootNamespace>UsingMyStatic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -134,6 +126,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mymath.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
