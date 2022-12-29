@@ -19,7 +19,7 @@ int main()
 
 	// 2. DLL 안에서 함수 찾기
 	F1 f = (F1)GetProcAddress(hDll, "_sub@8");	// __stdcall : _sub@8
-	printf("add 함수 주소 : %p\n", f);
+	printf("sub 함수 주소 : %p\n", f);
 
 	int ret = f(1, 2);
 

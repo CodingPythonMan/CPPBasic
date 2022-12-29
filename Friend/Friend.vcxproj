@@ -18,22 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="KernelObject\kernelobject.cpp" />
-    <ClCompile Include="KernelObject\main.cpp" />
-    <ClCompile Include="KernelObject\main2.cpp" />
-    <ClCompile Include="StaticLibrary\add.c" />
-    <ClCompile Include="StaticLibrary\main.c" />
-    <ClCompile Include="StaticLibrary\sub.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="StaticLibrary\mymath.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0a53fef0-c762-406a-849a-8ad7318874a8}</ProjectGuid>
-    <RootNamespace>WSProgramming2</RootNamespace>
+    <ProjectGuid>{bbf8efee-6d12-4655-8c1f-7f9a6678b23d}</ProjectGuid>
+    <RootNamespace>Friend</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -137,6 +126,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Friend.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
