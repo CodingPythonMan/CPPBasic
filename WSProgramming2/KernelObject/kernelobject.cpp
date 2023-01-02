@@ -1,4 +1,4 @@
-// kernelobject.cpp
+/*// kernelobject.cpp
 #include <stdio.h>
 #include <Windows.h>
 #include <tchar.h>
@@ -21,4 +21,4 @@ int _tmain()
 	getchar();	CloseHandle(h3);
 	getchar();	CloseHandle(h2);
 	getchar();	CloseHandle(h3);
-}
+}*/
