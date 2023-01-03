@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Thread\createthread1.cpp" />
     <ClCompile Include="Thread\createthread2.cpp" />
+    <ClCompile Include="Thread\critical_section1.cpp" />
+    <ClCompile Include="Thread\critical_section2.cpp" />
+    <ClCompile Include="Thread\threadexit1.cpp" />
+    <ClCompile Include="Thread\threadexit2.cpp" />
+    <ClCompile Include="Thread\threadexit3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
